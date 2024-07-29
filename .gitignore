@@ -1,0 +1,50 @@
+myenv
+# Python
+*.py[cod]
+*__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+*.log
+*.pot
+*.mo
+*.pyc
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.sqlite3
+*.log
+local_settings.py
+db.sqlite3
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Migrations
+migrations/
+
+# MySQL
+*.pid
+*.seed
+*.sql
+*.sql.gz
+
+# PostgreSQL
+*.dump
